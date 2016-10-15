@@ -1,7 +1,7 @@
 {
   "name": "collaboratom",
   "main": "./lib/collaboratom",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A collaborative tool(client) in which you chat and co-edit code with your partners",
   "keywords": [
     "collaborative"
