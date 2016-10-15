@@ -7,7 +7,7 @@
     "collaborative"
   ],
   "activationCommands": {
-    "atom-workspace": ["collaboratom:toggle", "collaboratom:connection"]
+    "atom-workspace": ["collaboratom:toggle", "collaboratom:connection", "collaboratom:newsession"]
   },
   "repository": "https://github.com/HACKxFDU/collaboratom",
   "license": "MIT",

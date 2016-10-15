@@ -1,5 +1,7 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "collaboratom:toggle"
+    "ctrl-alt-o": "collaboratom:toggle",
+    "ctrl-alt-a": "collaboratom:newsession",
+    "ctrl-alt-b": "collaboratom:connection"
   }
 }

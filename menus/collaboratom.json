@@ -3,15 +3,15 @@
     "atom-text-editor": [
       {
         "label": "New session",
-        "command": "test-plugin:newsession"
+        "command": "collaboratom:newsession"
       },
       {
         "label": "Connection",
-        "command": "test-plugin:connection"
+        "command": "collaboratom:connection"
       },
       {
         "label": "Disconnection",
-        "command": "test-plugin:disconnection"
+        "command": "collaboratom:disconnection"
       },
       {
         "label": "Toggle collaboratom",
@@ -28,15 +28,15 @@
           "submenu": [
             {
               "label": "New session",
-              "command": "test-plugin:newsession"
+              "command": "collaboratom:newsession"
             },
             {
               "label": "Connection",
-              "command": "test-plugin:connection"
+              "command": "collaboratom:connection"
             },
             {
               "label": "Disconnection",
-              "command": "test-plugin:disconnection"
+              "command": "collaboratom:disconnection"
             },
             {
               "label": "Toggle",
