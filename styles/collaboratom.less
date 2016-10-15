@@ -6,3 +6,33 @@
 
 .collaboratom {
 }
+
+@message-box-height: 22px;
+.chat-view {
+    width: 240px;
+    padding: 10px;
+    position: relative;;
+    .chat-box {
+        margin-bottom: @message-box-height;
+        .chat-list {
+            list-style: none;
+            padding: 0;
+            .chat-item {
+                font-size: 12px;
+                word-wrap: break-word;
+                .username {
+                    color: #d19a66;
+                }
+            }
+        }
+    }
+    .input-view {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: @message-box-height;
+        .message-box {
+            width: 100%;
+        }
+    }
+}
