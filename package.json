@@ -7,7 +7,7 @@
     "collaborative"
   ],
   "activationCommands": {
-    "atom-workspace": "collaboratom:toggle"
+    "atom-workspace": ["collaboratom:toggle", "collaboratom:connection"]
   },
   "repository": "https://github.com/HACKxFDU/collaboratom",
   "license": "MIT",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "jquery": "latest",
-    "socket.io-client": "latest"
+    "socket.io-client": "latest",
+    "randomstring": "^1.1.5"
   }
 }

@@ -2,6 +2,18 @@
   "context-menu": {
     "atom-text-editor": [
       {
+        "label": "New session",
+        "command": "test-plugin:newsession"
+      },
+      {
+        "label": "Connection",
+        "command": "test-plugin:connection"
+      },
+      {
+        "label": "Disconnection",
+        "command": "test-plugin:disconnection"
+      },
+      {
         "label": "Toggle collaboratom",
         "command": "collaboratom:toggle"
       }
@@ -14,6 +26,18 @@
         {
           "label": "collaboratom",
           "submenu": [
+            {
+              "label": "New session",
+              "command": "test-plugin:newsession"
+            },
+            {
+              "label": "Connection",
+              "command": "test-plugin:connection"
+            },
+            {
+              "label": "Disconnection",
+              "command": "test-plugin:disconnection"
+            },
             {
               "label": "Toggle",
               "command": "collaboratom:toggle"
