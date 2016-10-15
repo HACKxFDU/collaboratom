@@ -1,14 +1,15 @@
 {
   "name": "collaboratom",
   "main": "./lib/collaboratom",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "A collaborative tool(client) in which you chat and co-edit code with your partners",
   "keywords": [
+      "collaborative"
   ],
   "activationCommands": {
     "atom-workspace": "collaboratom:toggle"
   },
-  "repository": "https://github.com/atom/collaboratom",
+  "repository": "https://github.com/HACKxFDU/collaboratom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
