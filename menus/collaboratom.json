@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle collaboratom",
+        "command": "collaboratom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "collaboratom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "collaboratom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
