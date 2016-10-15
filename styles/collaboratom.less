@@ -10,10 +10,15 @@
 @message-box-height: 30px;
 .chat-view {
     width: 240px;
-    padding: 10px;
-    position: relative;;
+    position: relative;
     .chat-box {
-        margin-bottom: @message-box-height;
+        position: absolute;
+        top: 10px;
+        bottom: 50px;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        overflow-y: scroll;
         .chat-list {
             list-style: none;
             padding: 0;
@@ -28,7 +33,8 @@
     }
     .input-view {
         position: absolute;
-        bottom: 0;
+        bottom: 6px;
+        left: 10px;
         width: 220px;
         height: @message-box-height;
         .message-box {
