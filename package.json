@@ -1,13 +1,17 @@
 {
   "name": "collaboratom",
   "main": "./lib/collaboratom",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A collaborative tool(client) in which you chat and co-edit code with your partners",
   "keywords": [
     "collaborative"
   ],
   "activationCommands": {
-    "atom-workspace": ["collaboratom:toggle", "collaboratom:connection", "collaboratom:newsession"]
+    "atom-workspace": [
+      "collaboratom:toggle",
+      "collaboratom:connection",
+      "collaboratom:newsession"
+    ]
   },
   "repository": "https://github.com/HACKxFDU/collaboratom",
   "license": "MIT",
